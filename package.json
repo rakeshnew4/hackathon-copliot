@@ -1,0 +1,18 @@
+{
+  "name": "copilot-in-action-demo",
+  "version": "1.0.0",
+  "description": "Hands-on demo repo for the 'Copilot in Action' hackathon session (GitHub Copilot + GitHub Actions + Copilot Skills + Cloud Agent).",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "build": "node -e \"console.log('Build OK — nothing to bundle in this demo app')\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  },
+  "license": "MIT"
+}
