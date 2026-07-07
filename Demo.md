@@ -1,4 +1,4 @@
-# GitHub Copilot for GitHub Actions - Demo Prompts
+# GitHub Copilot for GitHub Actions
 
 This guide contains a series of practical prompts that demonstrate how GitHub Copilot can assist with creating, reviewing, securing, optimizing, documenting, and automating GitHub Actions workflows.
 
