@@ -84,78 +84,9 @@ GitHub Copilot helps identify security risks early by reviewing permissions, sec
 
 ---
 
-# Demo 4 – Performance Optimization
+# Demo 4 – Generate Documentation
 
 ## Prompt #4
-
-```text
-Optimize this GitHub Actions workflow.
-
-Focus on:
-
-- Faster execution
-- Better caching
-- Parallel jobs
-- Lower GitHub Actions cost
-
-Provide a before and after comparison.
-```
-
-### Key Takeaway
-
-Every minute saved in CI reduces developer wait time and lowers GitHub Actions usage costs.
-
----
-
-# Demo 5 – Fix a Failed Pipeline
-
-Break the workflow intentionally.
-
-For example:
-
-```bash
-npm run testtt
-```
-
-instead of
-
-```bash
-npm test
-```
-
-## Prompt #5
-
-```text
-This GitHub Actions workflow failed.
-
-Here is the error log:
-
-<Paste the error log>
-
-Please:
-
-1. Explain the root cause.
-2. Identify the incorrect file.
-3. Generate the fix.
-4. Explain why it failed.
-```
-
-### Key Takeaway
-
-Rather than searching Stack Overflow, simply paste the workflow error log into Copilot.
-
-It explains:
-
-- Root cause
-- Failing file
-- Recommended fix
-- Why the failure occurred
-
----
-
-# Demo 6 – Generate Documentation
-
-## Prompt #6
 
 ```text
 Generate documentation for this GitHub Actions workflow.
@@ -179,7 +110,26 @@ Documentation is generated directly from the implementation, ensuring it stays s
 
 ---
 
-# Demo 7 – Create a GitHub Copilot Skill
+
+# Demo 5 – Fix a Failed Pipeline
+
+Break the workflow intentionally.
+
+For example:
+
+```bash
+npm run testtt
+```
+
+instead of
+
+```bash
+npm test
+```
+
+
+
+# Demo 6 – Create a GitHub Copilot Skill
 
 Create the following file:
 
@@ -187,7 +137,7 @@ Create the following file:
 .github/skills/actions-debugging/SKILL.md
 ```
 
-## Prompt #7
+## Prompt #6
 
 ```text
 Create a GitHub Copilot Skill named "actions-debugging".
@@ -213,7 +163,7 @@ It becomes a reusable playbook stored inside the repository that GitHub Copilot 
 
 ---
 
-# Demo 8 – GitHub Copilot Cloud Agent
+# Demo 7 – GitHub Copilot Cloud Agent
 
 Break the workflow again.
 
@@ -235,10 +185,6 @@ You can find debugging skills in skill md files
 ```
 
 Assign the issue to **GitHub Copilot**.
-
-### Explain to the audience
-
-> I didn't tell the agent how to debug the problem. It reads the repository, discovers the `SKILL.md` file, follows our team's guidance, and returns a Pull Request with the fix.
 
 ### Key Takeaway
 
