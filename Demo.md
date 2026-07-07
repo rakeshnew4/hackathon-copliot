@@ -231,6 +231,7 @@ CI is failing
 Our CI pipeline is failing.
 
 Please investigate and fix it.
+You can find debugging skills in skill md files
 ```
 
 Assign the issue to **GitHub Copilot**.
