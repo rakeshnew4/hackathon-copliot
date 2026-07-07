@@ -2,4 +2,4 @@
 hackathon-copliot
 
 
-this projcect is regarding Node js app
+this project is regarding Python app
